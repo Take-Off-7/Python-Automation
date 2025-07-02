@@ -21,25 +21,25 @@ This is a simple Python script that uses multi-threading and sockets to simulate
 
 ## ⚙️ Setup Instructions
 
-1. Clone this repository:
+### 1. Clone this repository:
 
-```bash
+bash
 git clone https://github.com/Take-Off-7/Python-Authomation.git
 cd Python-Authomation
 
-⸻
+---
 
-2. Start a local HTTP server for testing:
+### 2. Start a local HTTP server for testing:
 
-To safely test the script without hitting external servers, run:
+In one terminal window, run:
 python -m http.server 80
-This starts a simple HTTP server on your machine at:
+This starts a local HTTP server at:
 http://127.0.0.1:80
 
 ---
 
 3. Run the script:
-In a different terminal, execute the stress test script:
+Open a new terminal window, navigate back into the project folder (if not already), and run:
 python main.py
 You should see output like:
 Connections made: 500
@@ -48,34 +48,34 @@ Connections made: 1500
 ...
 This means the script is successfully opening many connections to your test server.
 
-⸻
+---
 
-📄 License
+## 📄 License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-⸻
+---
 
-⚠️ Disclaimer
+## ⚠️ Disclaimer
 
 This script is for educational use only. Do not run it against any system that you do not own or have explicit permission to test. Misuse of this code may violate local laws and network policies.
 
 The author assumes no responsibility for how this code is used.
 
-⸻
+---
 
-👤 Author
+## 👤 Author
 	•	GitHub: Take-Off-7
 	•	Email: tfakeye7@gmail.com
 
-⸻
+---
 
-💡 Contributing
+## 💡 Contributing
 
 Contributions are welcome. Suggestions to improve usability, safety, or extensibility (e.g., CLI support, rate limiting, logging) are appreciated. Fork the repo and open a pull request.
 
-⸻
+---
 
-🏁 Final Note
+## 🏁 Final Note
 
 This project is a learning tool. Use it ethically and responsibly.
