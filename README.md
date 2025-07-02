@@ -27,14 +27,14 @@ This is a simple Python script that uses multi-threading and sockets to simulate
 git clone https://github.com/Take-Off-7/Python-Authomation.git
 cd Python-Authomation
 
-2: Start a local HTTP server for testing
+2. Start a local HTTP server for testing:
 
 To safely test the script without hitting external servers, run:
 python -m http.server 80
 This starts a simple HTTP server on your machine at:
 http://127.0.0.1:80
 
-3: Run the script
+3. Run the script:
 In a different terminal, execute the stress test script:
 python main.py
 You should see output like:
