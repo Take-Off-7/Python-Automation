@@ -45,7 +45,8 @@ Open a new terminal window, navigate back into the project folder (if not alread
 
 ```bash
 python main.py
-
+```
+```
 You should see output like:
 Connections made: 500
 Connections made: 1000
