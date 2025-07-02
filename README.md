@@ -24,7 +24,9 @@ This is a simple Python script that uses multi-threading and sockets to simulate
 ### 1. Clone this repository:
 
 bash
+
 git clone https://github.com/Take-Off-7/Python-Authomation.git
+
 cd Python-Authomation
 
 ---
@@ -32,13 +34,15 @@ cd Python-Authomation
 ### 2. Start a local HTTP server for testing:
 
 In one terminal window, run:
+
 python -m http.server 80
 This starts a local HTTP server at:
 http://127.0.0.1:80
 
 ---
 
-3. Run the script:
+### 3. Run the script:
+
 Open a new terminal window, navigate back into the project folder (if not already), and run:
 python main.py
 You should see output like:
