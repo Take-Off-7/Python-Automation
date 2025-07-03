@@ -25,7 +25,7 @@ This is a simple Python script that uses multi-threading and sockets to simulate
 
 ```bash
 git clone https://github.com/Take-Off-7/Python-Authomation.git
-cd Python-Authomation
+cd "Python-Automation/DDOS Script"
 ```
 
 ### 2. Start a local HTTP server for testing:
