@@ -1,8 +1,0 @@
-Hello World!
-
-This is a mail sent with Python!
-
-TakeOff Loves You!
-
-Kind regards,
-TakeOff
