@@ -1,4 +1,4 @@
-# 💬 Python Socket Chat Application
+# 💬 Python TCP Chat Room
 
 > ⚠️ For educational use only. Do not expose this server to the internet without proper security measures.
 
