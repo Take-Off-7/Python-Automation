@@ -8,4 +8,3 @@ for port in portlist:
     result = sock.connect_ex((ip,port))
     print(port, ":", result)
     sock.close()
-
