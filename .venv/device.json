@@ -1,0 +1,9 @@
+{
+    "hostname": "router01",
+    "enabled": true,
+    "status": "up",
+    "interfaces": [
+        { "id": 1, "name": "eth0", "vlan": 10 },
+        { "id": 2, "name": "eth1", "vlan": 20 }
+    ]
+}

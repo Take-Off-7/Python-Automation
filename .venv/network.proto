@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package network;
+
+option go_package = "github.com/yourusername/yourproject/network";
+
+service InterfaceService {
+  rpc GetInterfaces (InterfaceRequest) returns (InterfaceReply);
+}
+
+message InterfaceRequest {
+  string name = 1;
+}
+
+message InterfaceReply {
+  string status = 1;
+  int32 mtu = 2;
+}
